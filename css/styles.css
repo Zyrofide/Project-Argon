@@ -1,0 +1,56 @@
+body {
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+#wrapper {
+	box-shadow: 10px 10px 5px #000000;
+	margin: auto;
+	background: white;
+	height: 2000px;
+	width: 900px;
+}
+
+#siteLogo{
+	float:left;
+}
+
+header {
+	display:block;
+	padding: 0px 0px 70px 0px;
+}
+
+#horzNav {
+	display:block;
+	padding: 10px 20px 10px 0px;
+	background: #43a047;
+}
+
+#horzNav a {
+	text-decoration: none;
+	padding: 0px 0px 0px 20px;
+	color: #00cccb;
+}
+
+footer{
+	background: #43a047;
+	color: #00cccb;
+	padding: 10px 10px 10px 10px;
+}
+
+footer a {
+	text-decoration: none;
+	padding: 0px 0px 0px 20px;
+	color: #00cccb;
+}
+
+#ubuntu td, th{
+	border: 1px solid black;
+}
+
+#linuxDownloads {
+	width:600px;
+	border: 3px solid black;
+}
