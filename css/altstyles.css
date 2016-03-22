@@ -1,0 +1,68 @@
+#horzNav {
+   background-color: blue;
+   width: 100%;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin: 0 auto;
+   background: #43a047;
+   position: fixed;
+}
+
+#horzNav a {
+    font-family: 'Bitter', serif;
+	text-decoration: none;
+	padding: 0px 0px 0px 20px;
+	color: #00cccb;
+}
+
+#wrapper {
+	margin: auto;
+	background: white;
+	height: 2000px;
+	width: 900px;
+}
+
+p {
+    font-family: 'Bitter', serif;
+	padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+	padding-left: 20px;
+}
+
+body {
+	background-color: #E0E0E0;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+#button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    background-color: #43a047; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50;
+    color: white;
+}
