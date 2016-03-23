@@ -20,7 +20,7 @@
 #wrapper {
 	margin: auto;
 	background: white;
-	height: 2000px;
+	height: 100% auto;
 	width: 900px;
 }
 
@@ -65,4 +65,16 @@ body {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #4CAF50;
     color: white;
+}
+
+footer{
+	background: #43a047;
+	color: #00cccb;
+	padding: 10px 10px 10px 10px;
+}
+
+footer a {
+	text-decoration: none;
+	padding: 0px 0px 0px 20px;
+	color: #00cccb;
 }
