@@ -78,3 +78,22 @@ footer a {
 	padding: 0px 0px 0px 20px;
 	color: #00cccb;
 }
+
+#social{
+    position: absolute;;
+    right: 25px;
+    top: 80px;
+    height: 80px;
+    width: 120px;
+    border-radius: 4px;
+    background-color: #43a047;
+}
+
+#social h3 {
+    padding-top: 5px;
+    margin: 0px;
+}
+
+#social hr{
+    border-color: #66BB6A;
+}
