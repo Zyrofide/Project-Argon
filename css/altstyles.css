@@ -25,7 +25,6 @@
 }
 
 p {
-    font-family: 'Bitter', serif;
 	padding-left: 30px;
     padding-right: 30px;
     text-align: justify;
@@ -36,11 +35,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Bitter', serif;
 	padding-left: 20px;
 }
 
 body {
+    font-family: 'Bitter', serif;
 	background-color: #E0E0E0;
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -53,7 +52,7 @@ body {
     border-radius: 4px;
     background-color: #43a047; /* Green */
     border: none;
-    color: white;
+    color: #00cccb;
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
@@ -64,7 +63,7 @@ body {
 #button:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #4CAF50;
-    color: white;
+    color: #00cccb;
 }
 
 footer{
@@ -96,4 +95,26 @@ footer a {
 
 #social hr{
     border-color: #66BB6A;
+}
+
+table, th, td {
+    border-spacing: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#downloads a {
+    text-decoration: none;
+    color: #00cccb;
+}
+
+#downloads h3 {
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+#downloadsTable td {
+    padding: 10px 10px 10px 10px;
 }
